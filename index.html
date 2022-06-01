@@ -1,125 +1,469 @@
-<!<!DOCTYPE html>
-<html>
-<title>Sailesh's resume</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-.w3-row-padding img {margin-bottom: 12px}
-/* Set the width of the sidebar to 120px */
-.w3-sidebar {width: 120px;background: #222;}
-/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-#main {margin-left: 120px}
-/* Remove margins from "page content" on small screens */
-@media only screen and (max-width: 600px) {#main {margin-left: 0}}
-</style>
-<body class="w3-black">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sailesh Personal portfolio</title>
 
-<!-- Icon Bar (Sidebar - hidden on small screens) -->
-<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
-    <i class="fa fa-home w3-xxlarge"></i>
-    <p>HOME</p>
-  </a>
-  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-user w3-xxlarge"></i>
-    <p>ABOUT</p>
-  </a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-envelope w3-xxlarge"></i>
-    <p>CONTACT</p>
-  </a>
-</nav>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
-<!-- Navbar on small screens (Hidden on medium and large screens) -->
-<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
-    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
-    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
-  </div>
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/skins/color-1.css">
+
+</head>
+<body>
+
+<!-- custom cursors  -->
+<div class="cursor-1"></div>
+<div class="cursor-2"></div>
+
+
+<div id="menu-bars" class="fas fa-bars"></div>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <a href="#" class="logo"> <span>Durga Sai Sailesh</span> Chodabattula </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#service">skills</a>
+        <a href="#education">education</a>
+        <a href="#experience">experience</a>
+        <a href="#portfolio">portfolio</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="follow">
+        
+        <a href="https://www.linkedin.com/in/durga-sai-sailesh-chodabattula/" class="fab fa-linkedin"></a>
+        <a href="https://github.com/sailesh1848" class="fab fa-github"></a>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3 class="hi">Hi there...</h3>
+        <h3 class="info">I am</h3>
+        <h3 class="hi">   <span class ="name"> Durga Sai Sailesh Chodabattula </span> </h3>
+        <h3 class="info"> I am a <span class ="typing">Data Science Master's Student</span> </h3>
+        <p class="text"> A master's in Data Science Student @ Indiana University  </p>
+        <a href="#about" class="btn">about me</a>
+    </div>
+
+    <div class="image">
+        <img src="images/IMG_1655.png" alt="">
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+<h1 class="heading"> about <span> me </span> </h1>
+
+<div class="row-1">
+
+    <div class="content">
+        <h3> I'm Sailesh & I am a Software Developer</h3>
+        <p>A <b>Certified AWS Developer and Oracle Certified Associate Java SE 8 Programmer</b> with a history of efficient end to end application development and seamless integration with diverse range of FinTech partners with the core banking solutions. <b>2+ years of experience</b> in working with front-end technologies, back-end microservices, Data analysis, AWS services and various core banking solutions and FinTech partners.</p>
+        <div class="box-container">
+            <div class="box">
+                <p> <span> Age : </span> 24 </p>
+                <p> <span> gender : </span> Male </p>
+                <p> <span> languages : </span> english, hindi, french(intermediate), Japanese(beginer), Tamil(intermediate)  </p>
+            </div>
+            <div class="box">
+                <p> <span> phone : </span> +1 (812)-803-5200 </p>
+                <p> <span> email1 : </span> sailesh1298@gmail.com </p>
+                <p> <span> email2 : </span> dchodaba@iu.edu </p>
+            </div>
+        </div>
+        <a href="#" class="btn">download CV</a>
+    </div>
+
 </div>
 
-<!-- Page Content -->
-<div class="w3-padding-large" id="main">
-  <!-- Header/Home -->
-  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Chodabattula Durga Sai Sailesh</h1>
-    <p>B.Tech(Electronics and Communication engineering)</p>
-  </header>
+<h1 class="heading"> <span> my </span> skills </h1>
 
-  <!-- About Section -->
-  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-    <h2 class="w3-text-light-grey">About Me</h2>
-    <hr style="width:200px" class="w3-opacity">
-    <p>I am a kind of person who try to learn things at personal willingness.I dont believe in marks as they are achieved by studying for a day or two and the knowledge one gains is negligble as we can see lakhs of engineers lack skills even though they score good in their academics.I am looking for an opportunity to work in a challenging environment where I can showcase my skills and put in efforts to
-       explore,learn and adapt myself to different fields where I can find continuous learning opportunities.
-    </p>
-    <h3 class="w3-text-light-grey">Internships</h3>
-    <hr style="width:200px" class="w3-opacity">
-    <p> JUNE,2018, </p> 
-    <p> INTERN, EAUTOMATON COGNITIVE SOLUTIONS, THUB (INCUBATION CENTER), HYDERABAD</p>
-    <p>Worked on DATA CLEANSING AND MACHINE LEARNING using Python which is a part of a software to predict the nature of a patient of a hospital.</p>
-    <hr style="width:200px" class="w3-opacity">
-    <p>12TH JUNE 2017- 24TH JUNE 2017</p>
-    <p>TRAINEE (INDUSTRIAL TRAINING), BSNL (RTTC), HYDERABAD</p>
-    <p>Learned about communication systems, wireless networks, and the gsm module.</p>
-    <hr style="width:200px" class="w3-opacity">
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+<div class="row-2">
+
+    <div class="skills">
+        <div class="progress">
+            <h3> Backend Development <span> 95% </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
+        <div class="progress">
+            <h3> web development <span> 80% </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
+        <div class="progress">
+            <h3> Machine Learning <span> 75% </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
+        <div class="progress">
+            <h3> Cloud <span> 85% </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
     </div>
-    <h4 class="w3-text-light-grey">Skills</h4>
-    <hr style="width:200px" class="w3-opacity">
-    <p>Programming Languages:Python(Intermediate),c++(beginner),Matlab(beginner)</P> 
-    <p>Os's Known:Windows,linux(ubuntu)</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+
+    <div class="skills">
+        <div class="progress">
+            <h3> Spring <span> 95% </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
+        <div class="progress">
+            <h3>  Angular 4.0<span> 80% </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
+        <div class="progress">
+            <h3> DevOps <span> 85% </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
+        <div class="progress">
+            <h3> Mambu Core Banking System  <span> 85% </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
     </div>
-    <h5 class="w3-text-light-grey">Certifications</h5>
-    <hr style="width:200px" class="w3-opacity">
-    <p>PROGRAMMING, DATA STRUCTURES, AND ALGORITHMS USING PYTHON (NPTEL Online Certification)</p>
-    <p>COURSERA CERTIFICATION (PYTHON FOR EVERYBODY)</p>
-    <p>#STARTUPINIDA LEARNING PROGRAM (INVEST INDIA)</p>
-    <p>ONLINE MARKETING FUNDAMENTALS (GOOGLE DIGITAL UNLOCKED)</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
-    </div><br>
-    
- 
-   <h6 class="w3-text-light-grey">My Resume</h6>
-   <a href="https://drive.google.com/file/d/1f6J_iWmilIKqZ5zEQVQritSyygVc_267/view?usp=sharing" class="button">Click Here to Download My Resume</a>
-    
-    
 
-     
-    
-   
-  
- 
-
-  <!-- Contact Section -->
-  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-    <h2 class="w3-text-light-grey">Contact Me</h2>
-    <hr style="width:200px" class="w3-opacity">
-
-    <div class="w3-section">
-      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Chennai,India</p>
-      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +91 9566197480</p>
-      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: chodabattuladurga_cho@srmuniv.edu.in</p>
-    </div><br>
-    
-  <!-- End Contact Section -->
-  </div>
-  
-
-
-<!-- END PAGE CONTENT -->
 </div>
+
+</section>
+
+<!-- about section ends -->
+<!-- service section starts  -->
+
+<section class="service" id="service">
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <i class="fas fa-code"></i>
+                <h3>Programming languages</h3>
+                <p>Java, Python, JavaScript, Bash</p>
+            </div>
+    
+            <div class="box">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Web Technologies</h3>
+                <p>HTML, CSS, RESTful-API, Databases (SQL Server, MySQL, MongoDB, PostgreSQL)</p>
+            </div>
+    
+            <div class="box">
+                <i class="fas fa-file-code"></i>
+                <h3>Frameworks</h3>
+                <p>Spring, Angular 4.0, Ionic</p>
+            </div>
+    
+            <div class="box">
+                <i class="fab fa-aws"></i>
+                <h3>Cloud</h3>
+                <p>AWS Developer tools, GCP (Basics)</p>
+            </div>
+    
+            <div class="box">
+                <i class="fas fa-university"></i>
+                <h3>digital Banking Systems</h3>
+                <p>Temenos Transact (Beginner), Mambu Core Banking (Professional)</p>
+            </div>
+    
+            <div class="box">
+                <i class="fas fa-code-branch"></i>
+                <h3>DevOps  & Other</h3>
+                <p>SonarQube, Postman, Linux, OAuth 2.0, Apache Kafka, RabbitMQ, Docker, Jenkins, GIT, Python libraries (NumPy, Pandas, matplotlib, scikit-learn)</p>
+            </div>
+    
+        </div>
+    
+    </section>
+    
+    <!-- service section ends -->
+<!-- experience section starts  -->
+
+<section class="experience" id="education">
+
+    <h1 class="heading"> <span> my </span> education </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="content">
+                <span> August, 2021 - Current </span><br><br>
+                <object  data="images/193994.svg" width="100" height="100"> </object>
+                <h3>Luddy School of Informatics, Indiana University – Bloomington</h3>
+                <h3>Master’s in data science <br>Major: Computational Data Science </h3>
+                <p>Coursework: Elements of Artificial Intelligence, Advanced Database Concepts, Applied Algorithms, Data Mining, Information Visualization, Applied Machine Learning</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <span> June, 2015 – May, 2019 </span><br><br>
+                <object data="images/srm.svg" width="200" height="150"> </object>
+                <h3>SRM Institute of Science and Technology, Kattankulathur Campus</h3>
+                <h3>Bachelor of Technology in Electronics and Communication Engineering</h3>
+                <p>Coursework: Computer Programming, Probability and Random Process Theory, Discrete Mathematics, Advanced Calculus and Complex Analysis, Calculus and Solid Geometry Computer Communication</p>
+            </div>
+        </div>
+
+       
+
+    </div>
+
+</section>
+
+<!-- experience section ends -->
+
+
+<!-- experience section starts  -->
+
+<section class="experience" id="experience">
+
+    <h1 class="heading"> <span> my </span> experience </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="content">
+                <span> January, 2021 – August, 2021 </span><br><br>
+                <object  data="images/cg.svg" width="100" height="100"> </object>
+                <h3>Digital Banking</h3>
+                <h3>Associate Consultant, Capgemini Technology Services India Limited, Hyderabad</h3>
+                <p>• Developed capabilities around Mambu core banking solution and its integration with various FinTech partners and Cloud Technologies under COE (Centre of Excellence) / Mambu Capability Development.</p>
+                <p>• Delivered end to end capability Digital Banking Platform Solutions in the Core Banking, Payments and Digital Banking space for our digital banking clients which simplified and improved the process of opening an account or availing a loan by <b>cutting the turnaround time by 80%</b></p>
+                <p>• Designed and developed Restful APIs for different modules using security mechanisms like OAuth 2.0, 2-way SSL to secure the APIs using Spring Security and configured the microservices with Sleuth, Zipkin for tracing and ELK for log aggregation and visualization which <b>yielded in reduction in time to trace errors by more than 70% and capitalized on decreased time for error tracing to incorporate new features.</b></p>
+                <p>• Incorporated Spring Web flux to increase API performance and made the API calls asynchronous.</p>
+                <p>• Streamlined the development and adoption of latest technologies including the frontend framework Angular for Web Development and Ionic for mobile
+                    application development.</p>
+                </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <span> July, 2019 – December, 2020 </span><br><br>
+                <object  data="images/cg.svg" width="100" height="100"> </object>
+                <h3>Banking and Diversified Financials</h3>
+                <h3>Senior Software Engineer, Capgemini Technology Services India Limited, Hyderabad</h3>
+                <p>• Implemented capabilities around Temenos Transact, Mambu core banking solution and Cloud Technologies under COE (Centre of Excellence).</p>
+                <p>• Full-Stack Cloud Developer for developing retirement savings product for the Investment Advisors at an American Investment Management Company.</p>
+                </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <span> May, 2018 – June, 2018</span><br><br>
+                <object  data="images/thub.png" width="100" height="100"> </object>
+                <h3>Project Trainee</h3>
+                <h3>eAutomaton Cognitive Sciences PVT LTD, Thub - A Startup Incubation Centre at IIIT-H, Hyderabad</h3>
+                <p>•Performed cleansing the raw data about the patients and looked for significant insights, and was responsible for developing the ML models for predicting a patient’s behavior of opting services visiting a hospital considering the various parameters available in the raw data and clustering patients that are similar cases - <b>attained 82% accuracy in the prediction.</b></p>
+                </div>
+        </div>
+
+
+    </div>
+
+</section>
+
+<!-- experience section ends -->
+
+<section class="about" id="Certifications">
+
+<h1 class="heading"> <span> my </span> skills </h1>
+
+<div class="row-2">
+
+    <div class="skills">
+        <object  data="images/aws.png" width="100" height="100"> </object><br><br>
+        <div class="progress">
+            <h3> AWS Certified Developer - Associate <span></span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
+        <object  data="images/java.png" width="100" height="100"> </object><br><br>
+        <div class="progress">
+           
+            <h3> Oracle 1z0-808 Java SE 8 Programmer <span>  </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
+        
+    </div>
+
+    <div class="skills">
+        <object  data="images/mambu.png" width="100" height="100"> </object><br><br>
+        <div class="progress">
+            <h3>Mambu Solution Consultant 1<span> </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
+        <div class="progress">
+            <h3> IBM Data Science Professional Certificate on Coursera  <span> </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
+        <div class="progress">
+            <h3>  Python For Data Structures and Algorithm’s (NPTEL India)  <span> </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+<!-- portfolio section starts  -->
+
+<section class="portfolio" id="portfolio">
+
+    <h1 class="heading"> <span> my </span> portfolio </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/img-1.jpg" alt="">
+            <h3> project 01 </h3>
+            <div class="icons">
+                <a href="#" class="fas fa-link"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-search"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/img-2.jpg" alt="">
+            <h3> project 02 </h3>
+            <div class="icons">
+                <a href="#" class="fas fa-link"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-search"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/img-3.jpg" alt="">
+            <h3> project 03 </h3>
+            <div class="icons">
+                <a href="#" class="fas fa-link"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-search"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/img-4.jpg" alt="">
+            <h3> project 04 </h3>
+            <div class="icons">
+                <a href="#" class="fas fa-link"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-search"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/img-5.jpg" alt="">
+            <h3> project 05 </h3>
+            <div class="icons">
+                <a href="#" class="fas fa-link"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-search"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/img-6.jpg" alt="">
+            <h3> project 06 </h3>
+            <div class="icons">
+                <a href="#" class="fas fa-link"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-search"></a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- portfolio section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> contact <span> me </span> </h1>
+
+    <div class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-envelope"></i>
+            <h3>my email</h3>
+            <p>sailesh1298@gmail.com</p>
+            <p>dchodaba@iu.edu</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-phone"></i>
+            <h3>my number</h3>
+            <p>+1 812-803-5200</p>
+            
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>my address</h3>
+            <p>656 Woodbridge drive, Bloomington, Indiana, United States - 47408</p>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3093.0906633801583!2d-86.49254508450244!3d39.172659579529174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886c641a9052db7d%3A0x43e70dddaa84771c!2s656%20Woodbridge%20Dr%2C%20Bloomington%2C%20IN%2047408%2C%20USA!5e0!3m2!1sen!2sin!4v1654072729462!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen="" loading="lazy"></iframe>
+
+</div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section  -->
+<footer class="footer"> created by <span> mr. Sailesh </span> | all rights reserved! </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+<script src="js/script.js"></script>
 
 </body>
 </html>
-
