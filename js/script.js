@@ -1,8 +1,8 @@
 
 var typed = new Typed(".typing",{
-    strings:["   ","Data Science Master's Student","Full Stack Developer", "AWS Certified Developer", "Machine Learning Engineer", "Fintech Enthusiast","Java Certified Developer" ],
-    typeSpeed:100,
-    BackSpeed:60,
+    strings:["   ","Master's in Data Science  ","Full Stack Developer", "AWS Certified Developer", "Machine Learning Engineer", "Fintech Enthusiast","Java Certified Developer" ],
+    typeSpeed:60,
+    BackSpeed:100,
     loop:true
 
 });
